@@ -52,7 +52,7 @@ class Rover
   end
 
   def display_rover_coordinates
-    puts "#{@x_coordinate} #{y_coordinate} #{direction}"
+    puts "#{@x_coordinate} #{@y_coordinate} #{@direction}"
   end
 
   rover = Rover.new(1, 2, 'N')
